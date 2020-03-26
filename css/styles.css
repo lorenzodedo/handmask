@@ -7,10 +7,14 @@ html {
   color: #fff;
   text-align: center;
   background: url('../images/Background.jpg') no-repeat center center fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #features {
@@ -18,7 +22,6 @@ html {
   padding: 7% 10%;
   position: relative;
 }
-
 
 body {
   font-family: 'Montserrat-Black', sans-serif;
@@ -133,6 +136,7 @@ p {
   #title {
     text-align: center;
   }
+
   .title-img {
     position: static;
     transform: rotate(0deg);
@@ -250,20 +254,19 @@ p {
   color: white;
 }
 
-
 .choice {
   text-decoration: none;
-  background:transparent;
+  background: transparent;
   border: none;
 }
 
-.choice a{
-color: white;
+.choice a {
+  color: white;
 }
 
 .dropdown-menu {
   border-left-width: 16px;
-  background:transparent;
+  background: transparent;
   padding-top: 0;
   border-color: transparent;
 }
@@ -351,7 +354,7 @@ color: white;
   padding: 0;
 }
 
-.recommendations{
+.recommendations {
   text-align: center;
   padding: 3% 6%;
   margin-top: 5%;
