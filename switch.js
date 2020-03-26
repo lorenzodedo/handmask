@@ -2,6 +2,7 @@ $('[lang="en"]').show();
 $('[lang="es"]').hide();
 $('[lang="ko"]').hide();
 $('[lang="none"]').hide();
+$('[lang="small"]').hide();
 
 function toggleLanguage(language) {
   if (language === "Korean") {
@@ -42,7 +43,7 @@ if ($(window).width() < 768) {
   $(".centered-bot-sub").removeClass("centered-bot-sub");
   $(".top-left").addClass("top-left2");
   $(".top-left").removeClass("top-left");
-  $(".top-right-feat").addClass("top-right-feat2");
-  $(".top-right-feat").removeClass("top-right-feat");
   $(".centered").addClass("smallWidth");
+  $('[lang="big"]').hide();
+  $('[lang="small"]').show();
 }
