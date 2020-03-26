@@ -43,8 +43,7 @@ if ($(window).width() < 768) {
   $(".centered-bot-sub").removeClass("centered-bot-sub");
   $(".top-left").addClass("top-left2");
   $(".top-left").removeClass("top-left");
-  $(".centered").addClass("smallWidth");
-  $(".centered").removeClass("mediumWidth");
+  $(".centered-div").addClass("smallWidth");
   $('[lang="big"]').hide();
   $('[lang="small"]').show();
 }
