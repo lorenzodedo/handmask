@@ -1,49 +1,50 @@
 $('[lang="en"]').show();
 $('[lang="es"]').hide();
+$('[lang="it"]').hide();
+$('[lang="ja"]').hide();
 $('[lang="ko"]').hide();
-$('[lang="none"]').hide();
-$('[lang="small"]').hide();
 
 function toggleLanguage(language) {
   if (language === "Korean") {
     document.getElementById("choice").innerHTML = "Korean";
     $('[lang="es"]').hide();
     $('[lang="en"]').hide();
+    $('[lang="it"]').hide();
+    $('[lang="ja"]').hide();
     $('[lang="ko"]').show();
-  } else if (language === "Spanish") {
-    document.getElementById("choice").innerHTML = "Spanish";
+  } else if (language === "Español") {
+    document.getElementById("choice").innerHTML = "Español";
     $('[lang="es"]').show();
     $('[lang="en"]').hide();
+    $('[lang="it"]').hide();
+    $('[lang="ja"]').hide();
     $('[lang="ko"]').hide();
+  } else if (language === "Japanese") {
+    document.getElementById("choice").innerHTML = "Japanese";
+    $('[lang="es"]').hide();
+    $('[lang="en"]').hide();
+    $('[lang="it"]').hide();
+    $('[lang="ja"]').show();
+    $('[lang="ko"]').hide();
+  } else if (language === "Italiano") {
+    document.getElementById("choice").innerHTML = "Italiano";
+    $('[lang="es"]').hide();
+    $('[lang="en"]').hide();
+    $('[lang="it"]').show();
+    $('[lang="ja"]').hide();
+    $('[lang="ko"]').hide();
+
   } else {
     document.getElementById("choice").innerHTML = "English";
     $('[lang="es"]').hide();
     $('[lang="en"]').show();
-    $('[lang="ko"]').hide();
+    $('[lang="it"]').hide();
+    $('[lang="ja"]').hide();
+    $('[lang="ko"]').show();
   }
 }
 
 if ($(window).width() > 992) {
   var element = $("#paddiv");
   element.addClass("carousel-item2");
-}
-
-if ($(window).width() < 992) {
-  $(".centered").addClass("mediumWidth");
-}
-
-if ($(window).width() < 768) {
-  $(".centered-title").addClass("centered-title2");
-  $(".centered-title").removeClass("centered-title");
-  $(".centered-sub").addClass("centered-sub2");
-  $(".centered-sub").removeClass("centered-sub");
-  $(".centered-bot-title").addClass("centered-bot-title2");
-  $(".centered-bot-title").removeClass("centered-bot-title");
-  $(".centered-bot-sub").addClass("centered-bot-sub2");
-  $(".centered-bot-sub").removeClass("centered-bot-sub");
-  $(".top-left").addClass("top-left2");
-  $(".top-left").removeClass("top-left");
-  $(".centered-div").addClass("smallWidth");
-  $('[lang="big"]').hide();
-  $('[lang="small"]').show();
 }
