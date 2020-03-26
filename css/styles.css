@@ -1,12 +1,3 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -15,6 +6,11 @@ html {
   background-color: #ff9933;
   color: #fff;
   text-align: center;
+  background: url('../images/Background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #features {
@@ -33,6 +29,20 @@ h1 {
   font-size: 2rem;
   line-height: 1.5;
   font-weight: bold;
+}
+
+.introh1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.subintro {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 10%;
+  font-weight: 100;
 }
 
 h2 {
@@ -71,20 +81,25 @@ p {
 }
 
 .container-fluid {
-  padding: 0;
+  padding: 3% 10% 10% 10%;
+}
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 0;
 }
 
 .nav-item {
-  margin-left: 10px;
-  margin-right: 10px;
+  font-size: 1.2rem;
   font-family: 'Montserrat-light';
   color: #8f8f8f;
+  text-align: left;
 }
-
-.nav-item:hover{
-  text-decoration: none;
-}
-
 
 .download-but {
   margin: 3% 5% 3% 0;
@@ -235,6 +250,7 @@ p {
   color: white;
 }
 
+
 .choice {
   text-decoration: none;
   background:transparent;
@@ -291,9 +307,29 @@ color: white;
   color: #8f8f8f;
 }
 
-.intro {
+.intro-div {
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.subintro-div {
   text-align: center;
   margin-bottom: 4%;
+  margin-top: 10%;
+}
+
+.sub-top {
+  font-size: 1.6rem;
+  margin-bottom: 1%;
+  color: #c5d943;
+  font-weight: lighter;
+}
+
+.sub-bottom {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 .introline {
@@ -327,161 +363,17 @@ color: white;
   margin-bottom: 3%;
 }
 
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-  padding: 0;
-  margin: 0;
-  max-width: 100%;
+.navbar-toggler {
+  margin-right: 100%;
 }
 
 .container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.bottom-left {
-  position: absolute;
-  bottom: 4%;
-  left: 4%;
+  float: right;
+  padding-right: 0;
+  padding-top: 1.5%;
 }
 
 .top-left {
-  position: absolute;
-  top: 4%;
-  left: 4%;
   font-size: 1.2rem;
-}
-
-.top-left2 {
-  position: absolute;
-  top: 4%;
-  left: 4%;
-}
-
-.top-right {
-  position: absolute;
-  top: 4%;
-  right: 4%;
-}
-
-.top-right-feat {
-  position: absolute;
-  font-size: 1.5rem;
-  top: 4%;
-  right: 16%;
-}
-
-.top-left-featS {
-  position: absolute;
-  font-size: 1rem;
-  top: 4%;
-  left: 4%;
-}
-
-.bottom-right {
-  position: absolute;
-  bottom: 4%;
-  right: 4%;
-}
-
-.centered {
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
-  margin-top: 5%;
-}
-
-.centered-div {
-  position: absolute;
-  top: 23%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
-  margin-top: 5%;
-}
-
-.centered-sub-div {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
-  margin-top: 45%;
-  width: 70%;
-}
-
-.smallWidth {
-  width: 90%;
-}
-
-.mediumWidth {
-  width: 75%
-}
-
-.centered-title {
-  font-size: 2rem;
-  margin-bottom: 0;
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.centered-title2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  color: white;
-  margin-top: 10%;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.centered-sub {
-  font-size: 1.5rem;
-  color: white;
-  margin-bottom: 10%;
-  font-weight: 100;
-}
-
-.centered-sub2 {
-  font-size: 1rem;
-  color: white;
-  margin-bottom: 4%;
-  font-weight: 100;
-}
-
-.centered-bot-title {
-  font-size: 1.6rem;
-  margin-bottom: 1%;
-  color: #c5d943;
-  font-weight: lighter;
-}
-
-.centered-bot-title2 {
-  font-size: 1.3rem;
-  margin-bottom: 1%;
-  color: #c5d943;
-}
-
-.centered-bot-sub {
-  color: white;
-  font-size: 1.2rem;
-  font-weight: lighter;
-}
-
-.centered-bot-sub2 {
-  color: black;
-  font-size: 1rem;
-  font-weight: lighter;
-}
-
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+  padding-left: 5px;
 }
