@@ -7,10 +7,10 @@ html {
   color: #fff;
   text-align: center;
   background: url('../images/Background.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #features {
@@ -81,7 +81,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 10% 10% 10%;
+  padding: 6% 10% 10% 10%;
 }
 
 .navbar {
