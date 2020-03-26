@@ -430,7 +430,7 @@ color: white;
 .centered-sub2 {
   font-size: 0.8rem;
   color: white;
-  margin-bottom: 6%;
+  margin-bottom: 4%;
   font-weight: 100;
 }
 
@@ -442,7 +442,7 @@ color: white;
 }
 
 .centered-bot-title2 {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   margin-bottom: 1%;
   color: #c5d943;
   font-weight: lighter;
@@ -456,7 +456,7 @@ color: white;
 
 .centered-bot-sub2 {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: lighter;
 }
 
