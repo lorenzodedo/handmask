@@ -44,6 +44,7 @@ if ($(window).width() < 768) {
   $(".top-left").addClass("top-left2");
   $(".top-left").removeClass("top-left");
   $(".centered").addClass("smallWidth");
+  $(".centered").removeClass("mediumWidth");
   $('[lang="big"]').hide();
   $('[lang="small"]').show();
 }
