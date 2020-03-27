@@ -17,6 +17,7 @@ html {
   background-size: cover;
 }
 
+
 #features {
   background-color: white;
   padding: 7% 10%;
@@ -35,7 +36,7 @@ h1 {
 }
 
 .introh1 {
-  font-size: 0.3rem;
+  font-size: 2rem;
   margin-bottom: 0;
   color: white;
   font-family: "Times New Roman", Times, serif;
