@@ -19,13 +19,27 @@ html {
 
 #features {
   background-color: white;
-  padding: 7% 10%;
+  padding: 7% 12%;
   position: relative;
   text-align: center;
 }
 
+.feat-title {
+  font-size: 1.6rem;
+  color: #4169E1;
+}
+
+.feat-title-sub {
+  font-size: 1.1rem;
+}
+
 .brand {
   font-size: 1.2rem;
+  color: white;
+}
+
+.brand2 {
+  font-size: 1rem;
   color: white;
 }
 
@@ -95,6 +109,15 @@ p {
   font-family: 'Montserrat-light';
   color: #8f8f8f;
   text-align: left;
+  padding: 0;
+}
+
+.nav-item2 {
+  font-size: 1rem;
+  font-family: 'Montserrat-light';
+  color: #8f8f8f;
+  text-align: left;
+  padding: 0;
 }
 
 .download-but {
@@ -113,15 +136,18 @@ p {
 
 .feature-box {
   text-align: center;
-  padding: 5%
+  padding: 5%;
+  margin-bottom: 8%;
 }
 
-.featicon {
+.feats {
   padding-bottom: 7%;
   color: #ffbf80;
+  border-radius: 100%;
+  width: 80%;
 }
 
-.featicon:hover {
+.feats:hover {
   color: #ff9933;
 }
 
@@ -186,8 +212,9 @@ p {
 
 .card-but {
   color: white;
-  outline-color: #ff9933;
-  background-color: #ff9933;
+  outline-color: #9ACD32;
+  background-color: #9ACD32;
+  margin-top: 5%;
 }
 
 #pricing {
@@ -204,14 +231,29 @@ p {
 
 #cta {
   text-align: center;
-  background-color: #ff9933;
-  padding: 6% 30%;
+  background-color: #696969;
+  padding: 6% 20%;
 }
 
 .ctah3 {
+  font-size: 1.7rem;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 5%;
   padding: 0% 15%;
+}
+
+.email {
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 5%;
+  text-decoration: underline;
+}
+
+.ctah3sub {
+  font-size: 1rem;
+  color: white;
+  margin-top: 5%;
+  font-weight: lighter;
 }
 
 #footer {
@@ -407,6 +449,16 @@ color: white;
   margin-top: 5%;
 }
 
+.centered-div2 {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  margin-top: 5%;
+  width: 70%
+}
+
 .centered-sub-div {
   left: 50%;
   transform: translate(-50%, -50%);
@@ -431,7 +483,7 @@ color: white;
 }
 
 .centered-title2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 0;
   color: white;
   margin-top: 10%;
@@ -453,9 +505,8 @@ color: white;
 }
 
 .centered-bot-title {
-  font-size: 1.6rem;
-  color: #c5d943;
-  font-weight: lighter;
+  font-size: 1.8rem;
+  color: #9ACD32;
 }
 
 .centered-bot-sub {
