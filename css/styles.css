@@ -7,10 +7,10 @@ html {
   color: #fff;
   text-align: center;
   background: url('../images/BackgroundPh.jpg') no-repeat center center fixed;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 
