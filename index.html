@@ -6,7 +6,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700,900,900i|Ubuntu:300,300i,400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="/handmask/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
 
@@ -20,63 +20,57 @@
 
 <body>
 
-  <section id="title">
-    <div class="container-fluid">
+  <div lang="en" class="container">
+    <img src="images/Background.jpg" alt="background" style="width:100%;">
+    <div lang="none" class="bottom-left">Bottom Left</div>
 
-      <!-- Nav Bar -->
+    <!-- Nav Bar -->
+    <div class="top-left">
+      <h2 class="brand" lang="en">Handmade Masks</h2>
+      <div class="container2">
+        <nav class="navbar navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link" href="#cta">Features</a>
+              <a class="nav-item nav-link" href="#features">Pricing</a>
+              <a class="nav-item nav-link" href="#pricing">Order</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="top-right">
       <div class="container">
         <div class="dropdown">
           <button id="choice" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">English
             <span class="caret"></span></button>
           <ul class="dropdown-menu">
             <li class="choice" onclick="toggleLanguage('English')"><a href="#">English</a></li>
-            <li class="choice" onclick="toggleLanguage('Español')"><a href="#">Español</a></li>
-            <li class="choice" onclick="toggleLanguage('Italiano')"><a href="#">Italiano</a></li>
-            <li class="choice" onclick="toggleLanguage('Japanese')"><a href="#">Japanese</a></li>
             <li class="choice" onclick="toggleLanguage('Korean')"><a href="#">Korean</a></li>
+            <li class="choice" onclick="toggleLanguage('Spanish')"><a href="#">Spanish</a></li>
           </ul>
         </div>
       </div>
+    </div>
 
-      <!-- Nav Bar -->
-      <div class="container2">
-        <nav class="navbar navbar-dark">
-          <h2 lang="en" class="navbar-brand top-left">Handmade Masks</h2>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link" href="#cta">Download</a>
-              <a class="nav-item nav-link" href="#features">Features</a>
-              <a class="nav-item nav-link" href="#pricing">Pricing</a>
-            </div>
-          </div>
-        </nav>
-      </div>
+    <div lang="none" class="bottom-right">Bottom Right</div>
+    <div class="centered-div">
+      <p class="centered-title">“Keep yourself protected at reasonable price”</p>
+      <p class="centered-sub">Made in Dublin</p>
+    </div>
+  </div>
 
-
-
-      <!-- Title -->
-
-
-      <div class="intro-div">
-        <h1 class="introh1" lang="en">“Keep yourself protected at reasonable price”</h1>
-        <p class="subintro">Made in Dublin</p>
-      </div>
-      <div class="subintro-div">
-        <p class="sub-top">Handmade masks with replacement filters</p>
-        <p class="sub-bottom">Our cotton masks can be re-used compared to disposable masks which are very expensive. Created by a fashion designer and a graphic designer both working and living in Dublin. With regard to your personal health and
-          consideration for other people’s health, masks are not an option, but a necessity.</p>
-      </div>
-
-  </section>
 
 
   <!-- Features -->
 
   <section id="features">
-
+      <p class="centered-bot-title">Handmade masks with replacement filters</p>
+      <p class="centered-bot-sub">Our cotton masks can be re-used compared to disposable masks which are very expensive. Created by a fashion designer and a graphic designer both working and living in Dublin. With regard to your personal health and
+        consideration for other people’s health, masks are not an option, but a necessity.</p>
     <div class="row featureboxes">
       <div class="feature-box col-lg-3 col-md-6">
         <i class="far fa-check-circle fa-4x featicon"></i>
@@ -257,6 +251,6 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/handmask/switch.js" charset="utf-8"></script>
+<script src="switch.js" charset="utf-8"></script>
 
 </html>
