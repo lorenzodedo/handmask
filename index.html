@@ -6,7 +6,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700,900,900i|Ubuntu:300,300i,400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="/handmask/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
 
@@ -20,12 +20,13 @@
 
 <body>
 
-  <div lang="en" class="container">
+  <!-- Nav Bar Big Screen -->
+<div lang="big">
+  <div lang="en" class="big container">
     <img src="images/Background.jpg" alt="background" style="width:100%;">
     <div lang="none" class="bottom-left">Bottom Left</div>
 
-    <!-- Nav Bar -->
-    <div class="top-left">
+    <div class="big top-left">
       <h2 class="brand" lang="en">Handmade Masks</h2>
       <div class="container2">
         <nav class="navbar navbar-dark">
@@ -49,8 +50,10 @@
             <span class="caret"></span></button>
           <ul class="dropdown-menu">
             <li class="choice" onclick="toggleLanguage('English')"><a href="#">English</a></li>
+            <li class="choice" onclick="toggleLanguage('Español')"><a href="#">Español</a></li>
+            <li class="choice" onclick="toggleLanguage('Italiano')"><a href="#">Italiano</a></li>
+            <li class="choice" onclick="toggleLanguage('Japanese')"><a href="#">Japanese</a></li>
             <li class="choice" onclick="toggleLanguage('Korean')"><a href="#">Korean</a></li>
-            <li class="choice" onclick="toggleLanguage('Spanish')"><a href="#">Spanish</a></li>
           </ul>
         </div>
       </div>
@@ -63,6 +66,59 @@
     </div>
   </div>
 
+</div>
+
+
+  <!-- Nav Bar Small Screen -->
+
+<div lang="small">
+  <div lang="en" class="container">
+    <img src="images/Background.jpg" alt="background" style="width:150%;">
+    <div lang="none" class="bottom-left">Bottom Left</div>
+
+    <div class="big top-left">
+      <h2 class="brand2" lang="en">Handmade Masks</h2>
+      <div class="container2">
+        <nav class="navbar navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item2 nav-link" href="#cta">Features</a>
+              <a class="nav-item2 nav-link" href="#features">Pricing</a>
+              <a class="nav-item2 nav-link" href="#pricing">Order</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="top-right">
+      <div class="container">
+        <div class="dropdown">
+          <button id="choice" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">English
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li class="choice" onclick="toggleLanguage('English')"><a href="#">English</a></li>
+            <li class="choice" onclick="toggleLanguage('Español')"><a href="#">Español</a></li>
+            <li class="choice" onclick="toggleLanguage('Italiano')"><a href="#">Italiano</a></li>
+            <li class="choice" onclick="toggleLanguage('Japanese')"><a href="#">Japanese</a></li>
+            <li class="choice" onclick="toggleLanguage('Korean')"><a href="#">Korean</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div lang="none" class="bottom-right">Bottom Right</div>
+    <div class="centered-div2">
+      <p class="centered-title2">“Keep yourself protected at reasonable price”</p>
+      <p class="centered-sub2">Made in Dublin</p>
+    </div>
+  </div>
+
+</div>
+
+
 
 
   <!-- Features -->
@@ -72,33 +128,25 @@
       <p class="centered-bot-sub">Our cotton masks can be re-used compared to disposable masks which are very expensive. Created by a fashion designer and a graphic designer both working and living in Dublin. With regard to your personal health and
         consideration for other people’s health, masks are not an option, but a necessity.</p>
     <div class="row featureboxes">
-      <div class="feature-box col-lg-3 col-md-6">
-        <i class="far fa-check-circle fa-4x featicon"></i>
-        <h3>Easy</h3>
-        <p lang="ko">매일 필터교체 가능, 위생걱정 해결</p>
-        <p lang="en">FilterReplaceable daily, resolving hygiene concerns</p>
+      <div class="feature-box col-lg-4">
+        <img class="feats" src="images/A-front2.jpg" alt="feat1">
+        <h3 class="feat-title">Hygiene</h3>
+        <p class="feat-title-sub" lang="ko">매일 필터교체 가능, 위생걱정 해결</p>
+        <p class="feat-title-sub" lang="en">Filter replaceable daily, resolving hygiene concerns</p>
       </div>
 
-      <div class="feature-box col-lg-3 col-md-6">
-        <i class="fas fa-recycle fa-4x featicon"></i>
-        <h3>Washable</h3>
-        <p lang="ko">숨쉬기 편하도록 내부 공간 구성</p>
-        <p lang="en">Freeing up space inside the mask for easy breathing</p>
+      <div class="feature-box col-lg-4">
+        <img class="feats" src="images/A-knot.jpg" alt="feat2">
+        <h3 class="feat-title">Fit</h3>
+        <p class="feat-title-sub" lang="ko">숨쉬기 편하도록 내부 공간 구성</p>
+        <p class="feat-title-sub" lang="en">You can adjust the strap to fit your face</p>
       </div>
 
-
-      <div class="feature-box col-lg-3 col-md-6">
-        <i class="fas fa-heartbeat fa-4x featicon"></i>
-        <h3>Safe</h3>
-        <p lang="ko">매듭조절이 가능하여 내얼굴에 맞게 조정가능</p>
-        <p lang="en">You can adjust the knot to fit your own face</p>
-      </div>
-
-      <div class="feature-box col-lg-3 col-md-6">
-        <i class="fas fa-heartbeat fa-4x featicon"></i>
-        <h3>Safe!</h3>
-        <p lang="ko">디자인이 들어간 마스크</p>
-        <p lang="en">Design masks selected by designers</p>
+      <div class="feature-box col-lg-4">
+        <img class="feats" src="images/A-pocket.jpg" alt="feat3">
+        <h3 class="feat-title">Comfort</h3>
+        <p class="feat-title-sub" lang="ko">매듭조절이 가능하여 내얼굴에 맞게 조정가능</p>
+        <p class="feat-title-sub" lang="en">Ample space inside the masks allows for easy breathing</p>
       </div>
 
     </div>
@@ -130,15 +178,14 @@
 
     <div class="questions" lang="en">
       <h5 class="Que">Q: Which filter should I use? Do you sell filters as well?</h5>
-      <h5 class="Ans">A. No, we don't sell any filters. We're not a professional medical team. There are already selling validated filters online. Or, if you're having a hard time buying online, why don't you try using several sheets of dried water
-        tissue or baking paper?</h5>
+      <h5 class="Ans">A. No, we do not sell filters. We are not a professional medical team. There are validated filters available to buy online. Or, if you are having a hard time buying online, why don't you try using several sheets of dried water tissue or baking paper?</h5>
       <br>
-      <h5 class="Que">Q: How does it work the deal on? Do you deliver it? Can I transfer my account?</h5>
-      <h5 class="Ans">A. We don't deliver. All transactions are made directly near the Dublin City Center. If you order by e-mail, I'll send you an answer and we will decide where to meet. And it is received in cash at the time of the transaction.
+      <h5 class="Que">Q: How do I get my masks? Do you deliver it? Can I transfer payment from my account?</h5>
+      <h5 class="Ans">A. Sorry, we don't deliver. All transactions are made face-to-face near the Dublin City Center. If you order by e-mail, we will send you a response and we will agree on where to meet. Payment must be in cash only at the time of the transaction.
       </h5>
       <br>
       <h5 class="Que">Q: When can I get the mask?</h5>
-      <h5 class="Ans">A. Since we are doing manual work by two people, we can provide only a limited amount per day. Time may vary depending on order, so we'll answer your email order sequentially.</h5>
+      <h5 class="Ans">A. Since the masks are handmade by two people, we can provide only a limited amount per day. Time may vary depending on order, so we'll answer your email order on a first come, first served basis.</h5>
     </div>
 
     <div class="recommendations" lang="ko">
@@ -149,8 +196,13 @@
     <hr class="FaQ">
 
     <div class="recommendations" lang="en">
-      <h3 class="h3recom-or">! If you wear a mask all day long !</h3>
-      <h5 class="h5recom">We recommend that you carry a gauze or filter in a zipper bag and replace it with breakfast, lunch, dinner, or morning or afternoon. Once you have worn the mask, it is recommended that you re-use it after washing it.</h5>
+      <h3 class="h3recom-or">! Attention !</h3>
+      <br>
+      <h5 class="h5recom">Our mask is not a pharmaceutical product. It is intended to be used as a comfortable  and reusable product and comes with a pocket in which you can eventually add your own filters.</h5>
+      <br>
+      <h5 class="h5recom">If you wear a mask all day long, we recommend that you carry additioal gauzes or filters in a zipper bag and replace them 2-3 times per day. Once you have worn the mask, it is recommended that you only re-use it after washing it thoroughly in hot, soapy water.</h5>
+      <br>
+      <h5 class="h5recom">Please send us an email with your name, phone number, mask type and quantity. We will get back to you as soon as possible.</h5>
     </div>
 
 
@@ -175,8 +227,7 @@
             <h3>Mask A</h3>
           </div>
           <div class="card-body">
-            <h2>10 €</h2>
-            <p>With 5 gauze sheets: 12 €</p>
+            <h2>8 €</h2>
             <p>2-3 working days</p>
             <a href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Order</button></a>
           </div>
@@ -189,8 +240,7 @@
             <h3>Mask B</h3>
           </div>
           <div class="card-body">
-            <h2>10 €</h2>
-            <p>With 5 gauze sheets: 12 €</p>
+            <h2>8 €</h2>
             <p>2-3 working days</p>
             <p> </p>
             <p> </p>
@@ -205,8 +255,7 @@
             <h3>2 Masks</h3>
           </div>
           <div class="card-body">
-            <h2>18 €</h2>
-            <p>With 10 gauze sheets: 20 € </p>
+            <h2>15 €</h2>
             <p>2-3 working days</p>
             <p> </p>
             <p> </p>
@@ -223,11 +272,9 @@
 
   <section id="cta">
 
-    <h3 class="ctah3">Send us a message with your order!</h3>
-
-    <button type="button" class="btn btn-outline-light btn-lg download-but"><i class="fab fa-google-play"></i> Kakaotalk</button>
-    <a href="mailto: handmask.dublin@gmail.com?subject=Handmade mask order&body=Your name: %0D%0A Mask A quantity: %0D%0A Mask B quantity: %0D%0A Gauze sheets quantity: %0D%0A Preferred pickup time:"><button type="button"
-        class="btn btn-outline-dark btn-lg download-but"><i class="far fa-envelope"></i> Email</button></a>
+    <h3 class="ctah3">How to order it?</h3>
+    <a class="email" href="mailto:handmask.dublin@gmail.com">handmask.dublin@gmail.com</a>
+    <h3 class="ctah3sub">Please send us an email with your name, phone number, mask type and quantity. We will get back to you as soon as possible.</h3>
 
     </div>
 
@@ -251,6 +298,6 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/handmask/switch.js" charset="utf-8"></script>
+<script src="switch.js" charset="utf-8"></script>
 
 </html>
