@@ -46,15 +46,6 @@ function toggleLanguage(language) {
   }
 }
 
-if ($(window).width() > 992) {
-  var element = $("#paddiv");
-  element.addClass("carousel-item2");
-}
-
-if ($(window).width() < 992) {
-  $(".centered").addClass("mediumWidth");
-}
-
 if ($(window).width() < 768) {
   $('[lang="big"]').hide();
   $('[lang="small"]').show();
