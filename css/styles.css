@@ -533,7 +533,7 @@ p {
 
 .centered-divS {
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
