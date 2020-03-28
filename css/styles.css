@@ -5,6 +5,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -17,9 +18,15 @@ html {
   text-align: center;
 }
 
+#testimonials {
+  text-align: center;
+  background-color: #FFFFE0	;
+  width: 100%;
+}
+
 #features {
   background-color: white;
-  padding: 7% 12%;
+  padding: 7% 12% 0%;
   position: relative;
   text-align: center;
 }
@@ -141,7 +148,7 @@ p {
 }
 
 .feats {
-  padding-bottom: 7%;
+  padding-bottom: 5%;
   color: #ffbf80;
   border-radius: 100%;
   width: 80%;
@@ -178,15 +185,11 @@ p {
 }
 
 .testimonials-img {
-  margin: 20px;
-  width: 350px;
-  height: 350px;
+  width: 80%;
 }
 
-.testimonials-img2 {
-  margin: 20px 40px 20px 0;
-  width: 560px;
-  height: 350px;
+.testimonial-text {
+  margin-bottom: 0;
 }
 
 #press {
@@ -244,7 +247,8 @@ p {
 
 .email {
   color: white;
-  font-size: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
   margin-bottom: 5%;
   text-decoration: underline;
 }
@@ -252,7 +256,7 @@ p {
 .ctah3sub {
   font-size: 1rem;
   color: white;
-  margin-top: 5%;
+  margin-top: 6%;
   font-weight: lighter;
 }
 
@@ -315,10 +319,12 @@ color: white;
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  margin-right: 20%;
 }
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  margin-left: 20%;
 }
 
 #QA {
@@ -360,12 +366,11 @@ color: white;
   margin-bottom: 5%;
 }
 
-.FaQ {
-  border-style: dotted none none;
-  border-color: lightgrey;
-  border-width: 10px;
-  width: 6%;
-  padding: 0;
+.faq {
+  color: #0033cc;
+  font-size: 2.6rem;
+  font-weight: normal;
+  margin-bottom: 0;
 }
 
 .recommendations{
@@ -451,7 +456,7 @@ color: white;
 
 .centered-div2 {
   position: absolute;
-  top: 58%;
+  top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
@@ -528,4 +533,8 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+}
+
+.mask-img {
+  width: 100%;
 }
