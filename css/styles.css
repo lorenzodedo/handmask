@@ -20,7 +20,7 @@ html {
 
 #testimonials {
   text-align: center;
-  background-color: #FFFFE0	;
+  background-color: white;
   width: 100%;
 }
 
@@ -34,20 +34,25 @@ html {
 .feat-title {
   font-size: 1.6rem;
   color: #4169E1;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .feat-title-sub {
   font-size: 1.1rem;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .brand {
   font-size: 1.2rem;
   color: white;
+  font-weight: lighter;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .brand2 {
   font-size: 1rem;
   color: white;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 
@@ -71,30 +76,35 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: 'Montserrat-Black', sans-serif;
   font-weight: bold;
 }
 
 .choicedescr {
   text-align: center;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 h4 {
   color: black;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 h5 {
   color: black;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .h5feat {
   text-align: center;
   line-height: 1.6;
   font-weight: bold;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 p {
   color: #8f8f8f;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .container-fluid {
@@ -145,6 +155,7 @@ p {
   text-align: center;
   padding: 5%;
   margin-bottom: 8%;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .feats {
@@ -152,6 +163,7 @@ p {
   color: #ffbf80;
   border-radius: 100%;
   width: 80%;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .feats:hover {
@@ -173,7 +185,7 @@ p {
   background-color: white;
   color: #fff;
   float: left;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 #testimonials2 {
@@ -186,10 +198,16 @@ p {
 
 .testimonials-img {
   width: 80%;
+  margin-bottom: 10%;
 }
 
 .testimonial-text {
-  margin-bottom: 0;
+  margin-bottom: 2%;
+  margin-top: 8%;
+  font-size: 2.2rem;
+  font-weight: normal;
+  font-style: oblique;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 #press {
@@ -203,6 +221,11 @@ p {
   margin: 20px 20px 50px;
 }
 
+.carousel-inner {
+  margin-bottom: 5%;
+  background-color: #FFFFF0;
+}
+
 .carousel-item {
   padding: 3% 15%;
 }
@@ -211,6 +234,7 @@ p {
   text-align: center;
   margin-right: 10px;
   margin-bottom: 25px;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .card-but {
@@ -243,6 +267,7 @@ p {
   color: white;
   margin-bottom: 5%;
   padding: 0% 15%;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .email {
@@ -299,7 +324,8 @@ p {
 }
 
 .choice a{
-color: white;
+  color: white;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .dropdown-menu {
@@ -313,18 +339,23 @@ color: white;
   padding-Left: 8%;
 }
 
+.carousel-inner {
+  color: #FFFFE0;
+}
+
+
 .featureboxes {
   padding-top: 5%;
 }
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-  margin-right: 20%;
+  margin-right: 55%;
 }
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-  margin-left: 20%;
+  margin-left: 55%;
 }
 
 #QA {
@@ -537,4 +568,14 @@ html,body
 
 .mask-img {
   width: 100%;
+}
+
+#carouselExampleControls {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#carouselExampleControls2 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
