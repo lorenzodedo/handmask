@@ -35,6 +35,7 @@ html {
   font-size: 1.6rem;
   color: #4169E1;
   font-family: 'Montserrat-Black', sans-serif;
+  font-weight: lighter;
 }
 
 .feat-title-sub {
@@ -58,6 +59,33 @@ html {
 
 body {
   font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.pricedescr {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.finprice {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.maskord {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-bottom: 0%;
+}
+
+.h5recom{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 h1 {
@@ -83,6 +111,8 @@ h3 {
 .choicedescr {
   text-align: center;
   font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.6rem;
+  font-weight: normal;
 }
 
 h4 {
@@ -205,10 +235,8 @@ p {
   margin-bottom: 2%;
   margin-top: 8%;
   font-size: 2.2rem;
-  font-weight: normal;
-  font-style: oblique;
   font-family: 'Montserrat-Black', sans-serif;
-}
+  font-weight: lighter;}
 
 #press {
   background-color: #ef8172;
@@ -242,6 +270,8 @@ p {
   outline-color: #9ACD32;
   background-color: #9ACD32;
   margin-top: 5%;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: lighter;
 }
 
 #pricing {
@@ -268,6 +298,7 @@ p {
   margin-bottom: 5%;
   padding: 0% 15%;
   font-family: 'Montserrat-Black', sans-serif;
+  font-weight: lighter;
 }
 
 .email {
@@ -276,12 +307,15 @@ p {
   font-size: 1.1rem;
   margin-bottom: 5%;
   text-decoration: underline;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: lighter;
 }
 
 .ctah3sub {
   font-size: 1rem;
   color: white;
   margin-top: 6%;
+  font-family: 'Montserrat-Black', sans-serif;
   font-weight: lighter;
 }
 
@@ -311,7 +345,13 @@ p {
   text-align: right;
 }
 
-#choice {
+#choice1 {
+  border: 1px solid white;
+  margin-bottom: 3%;
+  color: white;
+}
+
+#choice2 {
   border: 1px solid white;
   margin-bottom: 3%;
   color: white;
@@ -366,7 +406,8 @@ p {
 
 .Que {
   text-align: center;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .questions {
@@ -379,6 +420,8 @@ p {
 .Ans {
   text-align: center;
   color: #8f8f8f;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: lighter;
 }
 
 .intro {
@@ -400,8 +443,9 @@ p {
 .faq {
   color: #0033cc;
   font-size: 2.6rem;
-  font-weight: normal;
+  font-weight: lighter;
   margin-bottom: 0;
+  font-family: 'Montserrat-Black', sans-serif;
 }
 
 .recommendations{
@@ -411,9 +455,11 @@ p {
 }
 
 .h3recom-or {
-  font-weight: bold;
+  font-weight: normal;
   color: #ff9933;
   margin-bottom: 3%;
+  font-family: 'Montserrat-Black', sans-serif;
+  margin-top: 10%;
 }
 
 /* Container holding the image and the text */
@@ -485,14 +531,14 @@ p {
   margin-top: 5%;
 }
 
-.centered-div2 {
+.centered-divS {
   position: absolute;
   top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
   margin-top: 5%;
-  width: 70%
+  width: 85%
 }
 
 .centered-sub-div {
@@ -527,7 +573,7 @@ p {
 }
 
 .centered-sub {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: white;
   margin-bottom: 10%;
   font-weight: 100;
