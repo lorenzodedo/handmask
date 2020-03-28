@@ -1,5 +1,8 @@
 $('[lang="en"]').show();
 $('[lang="es"]').hide();
+$('[lang="it"]').hide();
+$('[lang="ja"]').hide();
+$('[lang="ko"]').hide();
 $('[lang="ko"]').hide();
 $('[lang="none"]').hide();
 $('[lang="small"]').hide();
@@ -39,7 +42,7 @@ function toggleLanguage(language) {
     $('[lang="en"]').show();
     $('[lang="it"]').hide();
     $('[lang="ja"]').hide();
-    $('[lang="ko"]').show();
+    $('[lang="ko"]').hide();
   }
 }
 
