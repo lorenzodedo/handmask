@@ -6,7 +6,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700,900,900i|Ubuntu:300,300i,400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="/handmask/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
 
@@ -20,10 +20,10 @@
 
 <body>
 
-  <!-- Nav Bar Big Screen -->
-<div lang="big">
+  <!-- Nav Bar -->
   <div class="big container">
-    <img src="images/Background.jpg" alt="background" style="width:100%;">
+    <img lang="big" src="images/Background.jpg" alt="background" style="width:100%;">
+    <img lang="small" src="images/Background.jpg" alt="background" style="width:150%;">
     <div lang="none" class="bottom-left">Bottom Left</div>
 
     <div class="big top-left">
@@ -58,7 +58,7 @@
     <div class="top-right">
       <div class="container">
         <div class="dropdown">
-          <button id="choice" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">English
+          <button id="choice1" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">English
             <span class="caret"></span></button>
           <ul class="dropdown-menu">
             <li class="choice" onclick="toggleLanguage('English')"><a href="#">English</a></li>
@@ -72,7 +72,20 @@
     </div>
 
     <div lang="none" class="bottom-right">Bottom Right</div>
-    <div class="centered-div">
+    <div lang="big" class="centered-div">
+      <p lang="en" class="centered-title">“Keep yourself protected at reasonable price”</p>
+      <p lang="es" class="centered-title">“Mantente protegido a un precio razonable”</p>
+      <p lang="it" class="centered-title">“Mantieniti protetto ad un prezzo ragionevole”</p>
+      <p lang="ja" class="centered-title">“経済的に健康を守る”</p>
+      <p lang="ko" class="centered-title">“경제적으로 건강지키기”</p>
+      <p lang="en" class="centered-sub">Made in Dublin</p>
+      <p lang="es" class="centered-sub">Made in Dublin</p>
+      <p lang="it" class="centered-sub">Made in Dublin</p>
+      <p lang="ja" class="centered-sub">Made in Dublin</p>
+      <p lang="ko" class="centered-sub">Made in Dublin</p>
+    </div>
+
+    <div lang="small" class="centered-divS">
       <p lang="en" class="centered-title">“Keep yourself protected at reasonable price”</p>
       <p lang="es" class="centered-title">“Mantente protegido a un precio razonable”</p>
       <p lang="it" class="centered-title">“Mantieniti protetto ad un prezzo ragionevole”</p>
@@ -85,78 +98,9 @@
       <p lang="ko" class="centered-sub">Made in Dublin</p>
     </div>
   </div>
-
-</div>
 
 
   <!-- Nav Bar Small Screen -->
-
-<div lang="small">
-  <div class="container">
-    <img src="images/Background.jpg" alt="background" style="width:150%;">
-    <div lang="none" class="bottom-left">Bottom Left</div>
-
-    <div class="big top-left">
-      <h2 class="brand2">Handmade Masks</h2>
-      <div class="container2">
-        <nav class="navbar navbar-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <a lang="en" class="nav-item nav-link" href="#features">Features</a>
-              <a lang="es" class="nav-item nav-link" href="#features">Características</a>
-              <a lang="it" class="nav-item nav-link" href="#features">Caratteristiche</a>
-              <a lang="ja" class="nav-item nav-link" href="#features">Features</a>
-              <a lang="ko" class="nav-item nav-link" href="#features">Features</a>
-              <a lang="en" class="nav-item nav-link" href="#pricing">Pricing</a>
-              <a lang="es" class="nav-item nav-link" href="#pricing">Precio</a>
-              <a lang="it" class="nav-item nav-link" href="#pricing">Prezzo</a>
-              <a lang="ja" class="nav-item nav-link" href="#pricing">Pricing</a>
-              <a lang="ko" class="nav-item nav-link" href="#pricing">Pricing</a>
-              <a lang="en" class="nav-item nav-link" href="#cta">Order</a>
-              <a lang="es" class="nav-item nav-link" href="#cta">Pedido</a>
-              <a lang="it" class="nav-item nav-link" href="#cta">Ordina</a>
-              <a lang="ja" class="nav-item nav-link" href="#cta">Order</a>
-              <a lang="ko" class="nav-item nav-link" href="#cta">Order</a>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-    <div class="top-right">
-      <div class="container">
-        <div class="dropdown">
-          <button id="choice" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">English
-            <span class="caret"></span></button>
-          <ul class="dropdown-menu">
-            <li class="choice" onclick="toggleLanguage('English')"><a href="#">English</a></li>
-            <li class="choice" onclick="toggleLanguage('Español')"><a href="#">Español</a></li>
-            <li class="choice" onclick="toggleLanguage('Italiano')"><a href="#">Italiano</a></li>
-            <li class="choice" onclick="toggleLanguage('Japanese')"><a href="#">Japanese</a></li>
-            <li class="choice" onclick="toggleLanguage('Korean')"><a href="#">Korean</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div lang="none" class="bottom-right">Bottom Right</div>
-    <div class="centered-div2">
-      <p lang="en" class="centered-title">“Keep yourself protected at reasonable price”</p>
-      <p lang="es" class="centered-title">“Mantente protegido a un precio razonable”</p>
-      <p lang="it" class="centered-title">“Mantieniti protetto ad un prezzo ragionevole”</p>
-      <p lang="ja" class="centered-title">“経済的に健康を守る”</p>
-      <p lang="ko" class="centered-title">“경제적으로 건강지키기”</p>
-      <p lang="en" class="centered-sub">Made in Dublin</p>
-      <p lang="es" class="centered-sub">Made in Dublin</p>
-      <p lang="it" class="centered-sub">Made in Dublin</p>
-      <p lang="ja" class="centered-sub">Made in Dublin</p>
-      <p lang="ko" class="centered-sub">Made in Dublin</p>
-    </div>
-  </div>
-
-</div>
 
 
 
@@ -485,11 +429,11 @@
       <h3 lang="ja" class="choicedescr">Choose your favorite mask!</h3>
       <h3 lang="ko" class="choicedescr">Choose your favorite mask!</h3>
 
-      <p lang="en">Simple and affordable prices for you and your family.</p>
-      <p lang="es">Precios simples y asequibles para usted y su familia.</p>
-      <p lang="it">Prezzi semplici e convenienti per te e i tuoi familiari.</p>
-      <p lang="ja">Simple and affordable prices for you and your friends.</p>
-      <p lang="ko">Simple and affordable prices for you and your friends.</p>
+      <p class="pricedescr" lang="en">Simple and affordable prices for you and your family.</p>
+      <p class="pricedescr" lang="es">Precios simples y asequibles para usted y su familia.</p>
+      <p class="pricedescr" lang="it">Prezzi semplici e convenienti per te e i tuoi familiari.</p>
+      <p class="pricedescr" lang="ja">Simple and affordable prices for you and your friends.</p>
+      <p class="pricedescr" lang="ko">Simple and affordable prices for you and your friends.</p>
     </div>
 
 
@@ -497,24 +441,24 @@
       <div class="pricingcard col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3 lang="en">Mask A</h3>
-            <h3 lang="es">Máscara A</h3>
-            <h3 lang="it">Maschera A</h3>
-            <h3 lang="ja">Mask A</h3>
-            <h3 lang="ko">Mask A</h3>
+            <h3 class="maskord" lang="en">Mask A</h3>
+            <h3 class="maskord" lang="es">Máscara A</h3>
+            <h3 class="maskord" lang="it">Maschera A</h3>
+            <h3 class="maskord" lang="ja">Mask A</h3>
+            <h3 class="maskord" lang="ko">Mask A</h3>
           </div>
           <div class="card-body">
-            <h2>8 €</h2>
-            <p lang="en">2-3 working days</p>
-            <p lang="es">2-3 días laborables</p>
-            <p lang="it">2-3 giorni lavorativi</p>
-            <p lang="ja">2-3 working days</p>
-            <p lang="ko">2-3 working days</p>
-            <a lang="en" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Order</button></a>
-            <a lang="es" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Ordena</button></a>
-            <a lang="it" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Ordina</button></a>
-            <a lang="ja" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Order</button></a>
-            <a lang="ko" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Order</button></a>
+            <h2 class="finprice">8 €</h2>
+            <p class="pricedescr" lang="en">2-3 working days</p>
+            <p class="pricedescr" lang="es">2-3 días laborables</p>
+            <p class="pricedescr" lang="it">2-3 giorni lavorativi</p>
+            <p class="pricedescr" lang="ja">2-3 working days</p>
+            <p class="pricedescr" lang="ko">2-3 working days</p>
+            <a class="pricedescr" lang="en" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Order</button></a>
+            <a class="pricedescr" lang="es" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Ordena</button></a>
+            <a class="pricedescr" lang="it" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Ordina</button></a>
+            <a class="pricedescr" lang="ja" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Order</button></a>
+            <a class="pricedescr" lang="ko" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Order</button></a>
           </div>
         </div>
       </div>
@@ -522,19 +466,19 @@
       <div class="pricingcard col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3 lang="en">Mask B</h3>
-            <h3 lang="es">Máscara B</h3>
-            <h3 lang="it">Maschera B</h3>
-            <h3 lang="ja">Mask B</h3>
-            <h3 lang="ko">Mask B</h3>
+            <h3 class="maskord" lang="en">Mask B</h3>
+            <h3 class="maskord" lang="es">Máscara B</h3>
+            <h3 class="maskord" lang="it">Maschera B</h3>
+            <h3 class="maskord" class="maskord" lang="ja">Mask B</h3>
+            <h3 class="maskord" lang="ko">Mask B</h3>
           </div>
           <div class="card-body">
-            <h2>8 €</h2>
-            <p lang="en">2-3 working days</p>
-            <p lang="es">2-3 días laborables</p>
-            <p lang="it">2-3 giorni lavorativi</p>
-            <p lang="ja">2-3 working days</p>
-            <p lang="ko">2-3 working days</p>
+            <h2 class="finprice">8 €</h2>
+            <p class="pricedescr" lang="en">2-3 working days</p>
+            <p class="pricedescr" lang="es">2-3 días laborables</p>
+            <p class="pricedescr" lang="it">2-3 giorni lavorativi</p>
+            <p class="pricedescr" lang="ja">2-3 working days</p>
+            <p class="pricedescr" lang="ko">2-3 working days</p>
             <a lang="en" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Order</button></a>
             <a lang="es" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Ordena</button></a>
             <a lang="it" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Ordina</button></a>
@@ -547,19 +491,19 @@
       <div class="pricingcard col-lg-4">
         <div class="card">
           <div class="card-header">
-            <h3 lang="en">2 Masks</h3>
-            <h3 lang="es">2 Máscaras</h3>
-            <h3 lang="it">2 Maschere</h3>
-            <h3 lang="ja">2 Masks</h3>
-            <h3 lang="ko">2 Masks</h3>
+            <h3 class="maskord" lang="en">2 Masks</h3>
+            <h3 class="maskord" lang="es">2 Máscaras</h3>
+            <h3 class="maskord" lang="it">2 Maschere</h3>
+            <h3 class="maskord" lang="ja">2 Masks</h3>
+            <h3 class="maskord" lang="ko">2 Masks</h3>
           </div>
           <div class="card-body">
-            <h2>15 €</h2>
-            <p lang="en">2-3 working days</p>
-            <p lang="es">2-3 días laborables</p>
-            <p lang="it">2-3 giorni lavorativi</p>
-            <p lang="ja">2-3 working days</p>
-            <p lang="ko">2-3 working days</p>
+            <h2 class="finprice">15 €</h2>
+            <p class="pricedescr" lang="en">2-3 working days</p>
+            <p class="pricedescr" lang="es">2-3 días laborables</p>
+            <p class="pricedescr" lang="it">2-3 giorni lavorativi</p>
+            <p class="pricedescr" lang="ja">2-3 working days</p>
+            <p class="pricedescr" lang="ko">2-3 working days</p>
             <a lang="en" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Order</button></a>
             <a lang="es" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Ordena</button></a>
             <a lang="it" href="#cta"><button type="button" class="btn btn-outline-dark btn-lg card-but">Ordina</button></a>
@@ -623,6 +567,6 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/handmask/switch.js" charset="utf-8"></script>
+<script src="switch.js" charset="utf-8"></script>
 
 </html>
